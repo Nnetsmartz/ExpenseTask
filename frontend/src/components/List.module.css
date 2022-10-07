@@ -1,0 +1,48 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  background: #ffffff;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.item:hover {
+  background-color: #f5fbff;
+}
+
+.itemInner {
+  display: flex;
+  padding: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.amountText,
+.descriptionText {
+  color: #4f4f4f;
+  font-weight: 600;
+}
+
+.descriptionText {
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.emptyState {
+  margin: 60px;
+  text-align: center;
+}
+
+.emptyStateMessage {
+  margin-bottom: 20px;
+  font-weight: bold;
+}

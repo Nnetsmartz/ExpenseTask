@@ -1,0 +1,34 @@
+.btn {
+  display: inline-block;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #152e98;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:not(:first-child) {
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #213db5;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.danger {
+  background-color: #a00808;
+}
+
+.danger:hover {
+  background-color: #810606;
+}

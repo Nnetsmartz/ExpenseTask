@@ -1,0 +1,27 @@
+.notification {
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  background: #ffffff;
+  color: #222222;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 250px;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 15px;
+  top: calc(50% - 10px);
+  cursor: pointer;
+}
+
+.error {
+  background: #a41b1b;
+  color: #ffffff;
+}
+
+.error svg polygon {
+  fill: #ffffff;
+}
